@@ -18,7 +18,12 @@ public class BottleSong {
             bottlesNum--;
 
             if (bottlesNum > 0) {
-                System.out.println("There'll be " + bottlesNum + " green " + word + ", hanging on the wall");
+                if (bottlesNum == 1) {
+                    word = "bottle";
+                    System.out.println("There'll be " + bottlesNum + " green " + word + ", hanging on the wall");
+                } else {
+                    System.out.println("There'll be " + bottlesNum + " green " + word + ", hanging on the wall");
+                }
             } else {
                 System.out.println("There'll be no green bottles, hanging on the wall");
             }
