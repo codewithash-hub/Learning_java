@@ -17,7 +17,7 @@
 - Reusing code in other applications.
 
 
-# When you design a class, think about the objects that will be created from that class t ype.
+# When you design a class, think about the objects that will be created from that class type.
 - things the object knows.
 - things the object does.
 - Things an object knows about itself are called  instance variables.
