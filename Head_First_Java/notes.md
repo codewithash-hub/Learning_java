@@ -26,3 +26,17 @@
 # What’s the difference between a class and an object?
 - A class is a blueprint for an object. It tells the virtual machine how to make an object of that particular type.
 - An object is an instance of a class.
+
+# The two uses of main:
+-  to test your real class
+-  to launch/start your Java application
+
+# The Guessing Game
+
+Summary:
+The Guessing Game involves a game object and three player objects. The game generates
+a random number between 0 and 9, and the three player objects try to guess
+it.
+
+Classes:
+GuessGame.class Player.class GameLauncher.class
