@@ -40,3 +40,8 @@ it.
 
 Classes:
 GuessGame.class Player.class GameLauncher.class
+
+# Ways to declare a variable
+- ■	It must start with a letter, underscore (_), or dollar sign ($). You can’t start a name with a number.
+- After the first character, you can use numbers as well.
+- It can be anything you like, subject to those two rules, just so long as it isn’t one of Java’s reserved words.
